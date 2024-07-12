@@ -1,0 +1,22 @@
+.body {
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 60px 0;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: repeat(4, 20%);
+  grid-auto-rows: auto;
+  justify-content: center;
+  article {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
